@@ -1,0 +1,36 @@
+🎤 FlyMind: Presentation Script & Project Defense
+Slide 1: Introduction & Hook
+Title: FlyMind: From Connectome to Behavior in a 3D Virtual World
+
+What to say:
+
+"Good morning/afternoon. Have you ever wondered how a physical tangle of neurons translates into real-world behavior? Today, I present FlyMind—an integrated neuro-computational project that bridges real connectomics data from the Drosophila melanogaster (fruit fly) brain with an interactive 3D simulation. Instead of just looking at static brain wiring diagrams, FlyMind brings a fruit fly's decision-making brain to life in real-time."
+
+Slide 2: The Core Problem & Biological Data
+What to say:
+
+"The fruit fly is a neurobiology powerhouse with roughly 139,000 neurons, yet it performs complex behaviors like finding food and avoiding toxins. Using public connectome data from FlyWire and Shiu et al., we targeted the Subesophageal Zone (SEZ)—the primary gustatory and taste-processing center of the fly brain."
+
+Slide 3: Neural Simulation & Key Findings
+What to say:
+
+"Using Brian2, a spiking neural network simulator, we modeled leaky integrate-and-fire neurons to test how sensory inputs propagate. Our quantitative analysis revealed a striking asymmetry:
+
+Sugar stimulation activated 255 robust downstream neurons, representing a strong, widespread feeding and approach drive.
+
+Control/Water stimulation activated only 19 sparse neurons.
+This proves that neural architecture inherently encodes behavioral priorities before any complex learning even takes place."
+
+Slide 4: The 3D Behavioral Sandbox (Ursina Engine)
+What to say:
+
+"To make these neural calculations visible, I built a custom 3D simulation sandbox using Python's Ursina Engine. When sugar is spawned, the neural network's high firing rate drives the virtual yellow fly agent to steer toward the reward. When bitter stimuli are introduced, the sensory circuit triggers an immediate avoidance vector, causing the fly to frantically scurry away. Items also feature a realistic 10-second decay timer to simulate transient environmental cues."
+
+Slide 5: The Futuristic Vision — Towards Whole-Brain Emulation & Digital Consciousness
+What to say:
+
+"While FlyMind currently models a localized sensory sub-circuit in an insect, the long-term implications of this technology are profound.
+
+Scaling to Mammals & Humans: As connectomics mapping advances (like the recent mouse brain and human cortical tissue maps), the same computational pipelines can eventually be scaled up to map mammalian and human neural circuits.
+
+Whole-Brain Emulation & 'Living Inside a Computer': By faithfully modeling synaptic weights, ion channels, and spiking dynamics in silicon, we move closer to the theoretical realm of digital consciousness. Imagine a future where complex neural networks allow virtual agents—or eventually emulated biological minds—to perceive, learn, and 'live' entirely within synthetic computational substrates, revolutionizing artificial intelligence, prosthetics, and our understanding of what consciousness truly is."
